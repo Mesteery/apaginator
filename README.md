@@ -8,6 +8,7 @@
 
 ### Usage :
 
+- Install : `npm i apaginator`
 - Creates a new `Paginator` from a given `Array`,
   optionally with a specific number of items per page : `new Paginator(data[, perPage])` - return `Paginator` object :
   - `data` - The array
@@ -25,7 +26,7 @@
 ### Examples :
 
 ```js
-const Paginator = require('apaginator');
+const { Paginator } = require('apaginator');
 // create some fake data
 const fakeData = Array.from(Array(35).keys());
 // create a Paginator object with 10 items per page (the default value)
@@ -43,7 +44,7 @@ console.log(paginator.previous());
 ```
 
 ```ts
-import Paginator from 'apaginator';
+import { Paginator } from 'apaginator';
 // create some fake data
 const fakeData = Array.from(Array(14).keys());
 // create a Paginate object with 5 items per page

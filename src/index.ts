@@ -7,7 +7,7 @@
  * @public
  * @class
  */
-export default class Paginator<T> {
+export class Paginator<T> {
   public readonly data: T[];
   public readonly perPage: number;
   public currentPage = 0;

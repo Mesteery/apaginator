@@ -1,4 +1,4 @@
-import Paginator from '../src';
+import { Paginator } from '../src';
 
 const fakeData = Array.from(Array(20).keys());
 
