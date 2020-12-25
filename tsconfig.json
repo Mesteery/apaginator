@@ -3,7 +3,8 @@
     "module": "commonjs",
     "strict": true,
     "target": "ES2015",
-    "outDir": "build"
+    "outDir": "build",
+    "declaration": true
   },
   "files": ["./src/index.ts"]
 }

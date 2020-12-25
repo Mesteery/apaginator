@@ -34,12 +34,12 @@ const paginator = new Paginator(fakeData);
 
 // print the current page (the 1st page)
 console.log(paginator.current());
-// print the 10th page
+// print the 10th page (`undefined` because it doesn't exists)
 console.log(paginator.page(9));
 
-// print the next page (the 11th page)
+// print the next page (the 2nd page)
 console.log(paginator.next());
-// print the previous page (the 10th page)
+// print the previous page (the 1st page)
 console.log(paginator.previous());
 ```
 
